@@ -1,0 +1,13 @@
+a{
+    position: sticky;
+    top: 0;
+    behavior: 'smooth' ;
+}
+nav{
+    position: sticky;
+    top: 0;
+    behavior: 'smooth';
+    background-color: #ffbf00;
+    margin-top: 0px;
+
+}

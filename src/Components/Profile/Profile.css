@@ -1,0 +1,68 @@
+#top {
+    background-color: #ffbf00;
+    height: 6.05vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    
+}
+
+#storedValues, #profileLink {
+    border-width: 2px;
+    border-style: groove;
+    border-color: black;
+    width: 40%;
+    height: 5vh;
+    margin: auto;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    min-height: 50px;
+    background-color: white;
+}
+
+#profileLink {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    min-width: 200px;
+    line-height: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+   
+}
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
