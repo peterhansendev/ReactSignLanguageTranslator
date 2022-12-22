@@ -1,10 +1,11 @@
 # Title 
 
-React Signlanguage Translator. Noroff.
+React Signlanguage Translator
+
+BROKEN
 
 # Creators
 
-Christian Casper Hofma
 Peter Hansen
 
 # Getting Started with Create React App and Redux
