@@ -2,8 +2,6 @@
 
 React Signlanguage Translator
 
-BROKEN
-
 # Creators
 
 Peter Hansen
