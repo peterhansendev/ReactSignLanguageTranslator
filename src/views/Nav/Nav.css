@@ -8,7 +8,8 @@ nav{
     top: 0;
     behavior: 'smooth';
     background-color: #ffbf00;
-    margin-top: 0px;
+    height: 45px;
+   
 }
 
 .active {
