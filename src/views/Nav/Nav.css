@@ -9,5 +9,9 @@ nav{
     behavior: 'smooth';
     background-color: #ffbf00;
     margin-top: 0px;
+}
 
+.active {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
 }

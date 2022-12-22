@@ -7,7 +7,6 @@
     min-height: 80px;
     border-bottom-left-radius:20%;
     border-bottom-right-radius:20%;
-    
 }
 
 #storedValues, #profileLink {
@@ -31,11 +30,12 @@
     color: white;
     width: 20%;
     min-width: 200px;
-    line-height: 18px;
+    line-height: 20px;
     padding-left: 8px;
     padding-right: 8px;
     text-decoration: none;
-   
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .hovertext {
@@ -54,7 +54,6 @@
   border-radius: 5px;
   padding: 5px 0;
   transition: opacity 1s ease-in-out;
-
   position: absolute;
   z-index: 1;
   left: 0%;

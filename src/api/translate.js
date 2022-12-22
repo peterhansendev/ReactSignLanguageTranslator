@@ -1,5 +1,5 @@
 import { createHeaders } from "./index"
-const apiUrl = process.env.REACT_APP_API_URL
+const apiUrl = "https://634943afa59874146b1b72d0.mockapi.io/ReactTranslator"
 
 export const translateSubmitted = async (user, input) => {
     try {
